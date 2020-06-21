@@ -29,6 +29,7 @@ export const AddTransaction = () => {
                     </label>
                     <input type='text' id='description'
                     placeholder='Detail of Transaction'
+                    autoComplete='off'
                     value={description}
                     onChange={(e) => setDescription(e.target.value)} />
                 </div>
@@ -38,6 +39,7 @@ export const AddTransaction = () => {
                     </label>
                     <input type='number' id='transactionAmount'
                     placeholder='Enter Transaction Amount'
+                    autoComplete='off'
                     value={transactionAmount} 
                     onChange={(e) => setTransactionAmount(e.target.value)} />
                 </div>
